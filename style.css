@@ -34,7 +34,7 @@ body {
 }
 
 #content h1 {
-    font-size: 36pt;
+    font-size: 30pt;
 }
 
 #content p {
@@ -53,18 +53,27 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     list-style: none;
     background-color: var(--blue);
     color: white;
 }
 
 #nav li {
-    padding: 20px;
+    padding: 10px;
     font-weight: bold;
     margin: 10px;
-    font-size: 16pt;
+    font-size: 14pt;
 }
 
 #nav li:hover {
     color: var(--yellow);
+}
+
+.decor {
+    background-color: var(--red);
+    height: 15px;
+    width: 15px;
+    transform: rotate(45deg);
+    margin: 0 15px;
 }
